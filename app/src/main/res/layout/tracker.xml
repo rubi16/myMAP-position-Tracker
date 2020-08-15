@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/trackerwaal"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_source"
+        android:hint="Enter Source Location"
+        android:background="#eeffff"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_destination"
+        android:hint="Enter Destination Location"
+        android:background="#eeffff"
+        android:padding="15dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_track"
+        android:text="Track"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        />
+
+</LinearLayout>

@@ -181,6 +181,8 @@ public class MapsActivity extends AppCompatActivity
             case R.id.terrain_map:
                 mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
                 return true;
+            case R.id.Tracker_Map:
+                startActivity(new Intent(MapsActivity.this,Tracker.class));
             default:
                 return super.onOptionsItemSelected(item);
         }
